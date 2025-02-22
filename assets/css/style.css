@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: "kantumruy Pro", serif;
+ }
+ .comtainer {
+   width: 1200px;
+   margin: auto;
+ }
+ .clear {
+   clear: both;
+ }
+ header {
+  padding: 0;
+}
+header .navbar {
+  width: 100%;
+  background-color:rgb(5, 43, 5);
+}
+header .navbar .navbar-brand {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-decoration: none;
+   padding-left: 100px;
+   color: aliceblue;
+   float: left;
+}
+header .navbar .navbar-menu {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-decoration: none;
+   padding-right: 100px;
+   color: aliceblue;
+   float: right;
+}
+.banner img{
+   width: 100%;
+}
+ .section {
+    width: 100%;
+    height: 450px;
+    padding: 90px 90px;
+    padding-top: 70px;
+}
+.green-section {
+    background-color: lightgreen;
+}
+.blue-section {
+    background-color: lightblue;
+}
+.box {
+    width: 300px;
+    height: 300px;
+}
+.box1 {
+    background-color: rgb(3, 32, 3);
+    float: left;
+}
+.box2 {
+    background-color: rgb(4, 40, 4);
+    float: right;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
